@@ -1,1 +1,1 @@
-console.log('hello world')
+setTimeOut(()=>console.log('hello world'),1000)
