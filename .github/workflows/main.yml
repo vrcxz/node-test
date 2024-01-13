@@ -6,5 +6,6 @@ jobs:
   steps:
    - run: node --version
    - run: pwd
+   - run: cd ..
    - run: ls -a
    - run: node app.js
