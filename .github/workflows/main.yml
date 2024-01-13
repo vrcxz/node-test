@@ -5,7 +5,4 @@ jobs:
   container: node:16
   steps:
    - run: node --version
-   - run: pwd
-   - run: cd ..
-   - run: ls -a
    - run: node app.js
